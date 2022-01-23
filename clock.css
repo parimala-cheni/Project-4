@@ -1,0 +1,258 @@
+body{
+    background-color:rgb(94, 15, 131);
+    margin: 0px;
+    padding: 0px;
+}
+
+#container1{
+    width:  37%;
+    margin-left: 135px;
+    position: absolute;
+    
+
+}
+
+.clock{
+    margin: 20px;
+    
+}
+
+#settings{
+    width: 450px;
+    border-radius: 10px;
+    background-color: white;
+    margin: 20px;
+    padding: 10px;
+    margin-top: 60px;
+    
+    
+    
+}
+.set{
+   
+    padding : 10px;  
+    
+     
+    
+}
+.wish{
+    margin: 20px;
+    padding: 10px;
+    width: 450px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    background-color: #8E53F0;
+    font-size: 20px;
+    color: white;
+    font-family: 'bauhaus 93';
+    font-variant: inherit;
+
+}
+
+#party{
+    margin: 20px;
+    border-radius: 3px;
+    color: #ffffff;
+    width: 200px;
+    padding: 10px;
+    font-family: sans-serif;
+    text-align: center;
+    background-image:linear-gradient(to right,#6E54EC,#FC5EFF) ;
+
+}
+#party:hover{
+    background-image:linear-gradient(to right,#FC5EFF,#6E54EC) ;
+
+}
+label{
+    font-size: 18px;
+    color: #3D087B;
+    margin-left: 30px;
+    /* margin-top: 30px; */
+    font-family: sans-serif;
+    /* padding-top: 10px;  */
+    
+    
+    
+
+}
+
+#wakeup{
+     border-radius: 2px; 
+    width: 170px;
+    height: 30px;
+    margin-top: 0px;
+    margin-left: 55px;
+    /* display: flex;  */
+    /* position: absolute;  */
+    
+}  
+.asset{
+    margin-top: 20px;
+}
+#lunchtym{
+    border-radius: 2px; 
+   width: 170px;
+   height: 30px;
+   margin-top: 0px;
+   margin-left: 75px;
+}
+
+#sleeptym{
+    border-radius: 2px; 
+   width: 170px;
+   height: 30px;
+   margin-top: 0px;
+   margin-left: 90px;
+}
+
+#container2{
+   width: 500px;
+   margin-left:47%;
+   margin-top: 60px;
+   position: relative; 
+}
+#timer{
+    
+    background-color: white;
+    height: 100px;
+    width: 500px;
+    border-radius: 10px;
+    z-index: 1;
+    position: relative;
+    display: flex;
+    
+
+    
+}
+.para{
+   
+    text-align: center; 
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 10px;
+    color: #3D087B;
+    padding-top: 25px;
+    border-radius: 3px;
+    width: 70px;
+    height: 50px;
+    
+
+} 
+
+.hour{
+    /* position: absolute;   */
+    font-size: 30px;
+    /* margin-left: 10px; */
+    padding-top:5px;
+    width: 60px;
+    height: 70px;
+    background-color: #F6E2FF;
+
+    
+}
+.span1{
+    font-size: 20px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 117px;
+    
+}
+
+.span2{
+    font-size: 20px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 225px;
+    
+}
+.span3{
+    font-size: 20px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 332px;
+    
+}
+p{
+    font-size: 35px;
+    padding-left: 10px;
+    margin-top:25px;
+    margin-left: 5px;
+}
+.meridian{
+    font-size: 40pxpx;
+    padding-top:25px;
+    width: 60px;
+    height: 50px;
+    margin-left: 30px;
+    background-image: url(./assets/amimg.svg);
+}
+
+.empty1{
+    
+    height: 70px;
+    width: 410px;
+    margin-left: 40px; 
+    position: absolute;
+    background-color: #8E53F0;
+    border-radius: 10px;
+    z-index: -4;
+    opacity:0.21 ;
+    top: 60px;
+
+}
+.empty2{
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-left:25px;
+    height: 70px;
+    width: 440px;
+    background-color: #EDEDED;
+    z-index: -3;
+    top: 45px;
+    opacity: 0.61;
+    position: absolute;
+
+}
+#container3{
+    border-radius: 10px;
+    width: 500px;
+    margin-top: 40px;
+    /* margin-left:0px; */
+    height: 400px;
+    position: relative;
+    background-color: white;
+}
+.textbox1{
+    margin: 25px;
+    text-transform: uppercase;
+    font-family: 'bauhaus 93';
+    font-size: 25px;
+    color: #8E53F0;
+    position: absolute;
+} 
+
+.middle{
+    border-left: 2px solid #C2C2C2;
+    height: 30px;
+    margin-left: 20px;
+}
+
+#lunchpic{
+    background-image: url(./assets/group.png);
+    height: 380px;
+    background-size:cover ;
+}
+
+#popup{
+    
+    color: white;
+    margin: 10px 0px;
+    padding: 20px 10px;
+    font-family: "'bauhaus 93'";
+    
+}
+
+
+
+
